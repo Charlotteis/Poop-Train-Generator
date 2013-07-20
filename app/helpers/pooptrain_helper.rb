@@ -1,0 +1,2 @@
+module PooptrainHelper
+end

@@ -47,7 +47,6 @@
   </head>
 
     <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 
   <body>
 
@@ -73,6 +72,21 @@
       <div class="row-fluid marketing">
         <div class="span">
           <h4>Our Checklist</h4>
+          <p>How many paragraphs?</p>
+          <div>
+            <input type="radio" value="1">1</input>
+            <input type="radio" value="2">2</input>
+            <input type="radio" value="3">3</input>
+            <input type="radio" value="4">4</input>
+            <input type="radio" value="5">5</input>
+          </div>
+
+          <div>
+          	<button>Hello</button>
+          </div>
+
+          <p><%= HomeHelper.paragraphs 5 =%></p>
+
 
         </div>
 

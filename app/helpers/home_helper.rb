@@ -769,7 +769,7 @@ Gaige = ["I say MECHRO, you say MANCER. MECHRO! (no reply) ...You guys suck!",
   private
 
   def self.kriegparagraph
-    Krieg.shuffle[0..12].join(' ')
+    Krieg.shuffle[0..14].join(' ')
   end
 
   def self.zeroparagraph

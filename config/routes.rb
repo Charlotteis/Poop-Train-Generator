@@ -1,6 +1,8 @@
 Pooptrain::Application.routes.draw do
   get "home/index"
-
+  match 'home' => 'home#index'
+  match 'zero' => 'home#zero'
+  match 'gaige' => 'home#gaige'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
